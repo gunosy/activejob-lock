@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.add_dependency 'activejob', '~> 7.2.0'
-  s.add_dependency 'activesupport', '~> 7.2.0'
+  s.add_dependency 'activejob', '~> 8.0.0'
+  s.add_dependency 'activesupport', '~> 8.0.0'
   s.add_dependency "resque-lock", "~> 1.1"
 
   s.add_development_dependency "bundler", "~> 1.7"
